@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "5519e642ad449504889f52a5eb18402b"
+build_time: [529891877, 534818000]
+inputs:
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/AFError.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Alamofire.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/MultipartFormData.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Notifications.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/ParameterEncoding.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Request.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Response.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/ResponseSerialization.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Result.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/ServerTrustPolicy.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/SessionDelegate.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/SessionManager.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/TaskDelegate.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Timeline.swift": [529891797, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Validation.swift": [529891797, 0]

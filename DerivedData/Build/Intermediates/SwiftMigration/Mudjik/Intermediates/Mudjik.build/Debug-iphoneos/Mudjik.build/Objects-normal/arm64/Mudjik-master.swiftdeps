@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "2a6b84b89bc53aa3fe598d35856037a3"
+build_time: [529895479, 851619000]
+inputs:
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Mudjik/ViewController.swift": !dirty [529895323, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Mudjik/AppDelegate.swift": !dirty [529892669, 0]

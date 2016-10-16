@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/SwiftMigration/Mudjik/Products/Debug-iphoneos/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/SwiftMigration/Mudjik/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/SwiftMigration/Mudjik/Products/Debug-iphoneos/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/SwiftMigration/Mudjik/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/SwiftMigration/Mudjik/Products/Debug-iphoneos/Pods_Mudjik.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Mudjik-umbrella.h",
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Target Support Files/Pods-Mudjik/Pods-Mudjik-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Mudjik-Swift.h",
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/SwiftMigration/Mudjik/Products/Debug-iphoneos/Pods_Mudjik.framework/Headers/Pods_Mudjik-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/SwiftMigration/Mudjik/Products/Debug-iphoneos/Pods_Mudjik.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/SwiftMigration/Mudjik/Intermediates/Pods.build/Debug-iphoneos/Pods-Mudjik.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

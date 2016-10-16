@@ -1,0 +1,18 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "d4123eb7c693269fd1bae8e63a04f49b"
+build_time: [529895495, 228149000]
+inputs:
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Alamofire.swift": [529895483, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Download.swift": [529895483, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Error.swift": [529895483, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift": [529895483, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/MultipartFormData.swift": [529895483, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/ParameterEncoding.swift": [529895483, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Request.swift": [529895483, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Response.swift": [529895483, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/ResponseSerialization.swift": [529895483, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Result.swift": [529895483, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/ServerTrustPolicy.swift": [529895483, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Stream.swift": [529895483, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Upload.swift": [529895483, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Validation.swift": [529895483, 0]

@@ -1,0 +1,88 @@
+[
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33312,
+  "remove": 1,
+  "text": "#selector(NS",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33323,
+  "text": "Delegate.URLSession(_",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33350,
+  "remove": 1,
+  "text": "))",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33433,
+  "remove": 1,
+  "text": "#selector(NS",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33444,
+  "text": "Delegate.URLSession(_",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33483,
+  "remove": 1,
+  "text": "))",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33560,
+  "remove": 1,
+  "text": "#selector(NS",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33572,
+  "remove": 1,
+  "text": "elegate.URLSessionDi",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33609,
+  "remove": 2,
+  "text": "(_:))",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33706,
+  "remove": 1,
+  "text": "#selector(NS",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33717,
+  "text": "TaskDelegate.URLSession(_",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33779,
+  "remove": 1,
+  "text": "))",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33860,
+  "remove": 1,
+  "text": "#selector(NS",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33871,
+  "text": "DataDelegate.URLSession(_",
+ },
+ {
+  "file": "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/Alamofire/Source/Manager.swift",
+  "offset": 33918,
+  "remove": 1,
+  "text": "))",
+ }
+]
