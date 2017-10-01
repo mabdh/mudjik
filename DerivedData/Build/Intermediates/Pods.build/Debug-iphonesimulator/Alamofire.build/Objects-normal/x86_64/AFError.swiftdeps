@@ -39,18 +39,18 @@ provides-member:
 - ["OO9Alamofire7AFError31ResponseValidationFailureReason", "localizedDescription"]
 provides-dynamic-lookup:
 depends-top-level:
-- "AFError"
-- "Error"
-- "URL"
-- "String"
-- "URLConvertible"
 - "Bool"
-- !private "StringLiteralType"
-- "LocalizedError"
-- "Int"
-- !private "BooleanLiteralType"
-- !private "UnicodeScalarType"
 - !private "+"
+- "URLConvertible"
+- "LocalizedError"
+- "URL"
+- "Error"
+- "AFError"
+- !private "BooleanLiteralType"
+- "Int"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "String"
 depends-member:
 - ["O9Alamofire7AFError", "Bool"]
 - ["O9Alamofire7AFError", "Error"]
@@ -405,6 +405,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 interface-hash: "b8db5a6cec0a955bbfc40d5856ee11de"

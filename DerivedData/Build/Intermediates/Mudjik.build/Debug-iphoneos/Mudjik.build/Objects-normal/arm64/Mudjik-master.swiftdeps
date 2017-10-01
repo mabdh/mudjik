@@ -1,7 +1,7 @@
 version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
 options: "21d3661b929fb99ed366eb5e3d678768"
-build_time: [529922928, 925195000]
+build_time: [529934965, 742861000]
 inputs:
-  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Mudjik/ViewController.swift": [529922927, 0]
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Mudjik/ViewController.swift": [529934964, 0]
   "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Mudjik/mdViewController.swift": [529922426, 0]
   "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Mudjik/AppDelegate.swift": [529892669, 0]

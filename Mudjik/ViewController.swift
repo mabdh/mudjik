@@ -118,17 +118,17 @@ extension ViewController {
         }
         
         var imgur:ImgurAnonymousAPIClient = ImgurAnonymousAPIClient()
-        imgur.clientID = "d4c1ea2055f92f5"
-        imgur.uploadImage(image,withFilename:randomStringWithLength(len: 10) + ".jpeg", completionHandler:{(url,err) in
-            debugPrint(url)
-            debugPrint(err)
-            if !(err != nil) {
-                print("\(url)")
-                self.sendToServer(url: (url?.absoluteString)!)
-            }
-        })
+        //imgur.clientID = "d4c1ea2055f92f5"
+        //imgur.uploadImage(image,withFilename:randomStringWithLength(len: 10) + ".jpeg", completionHandler:{(url,err) in
+        //    debugPrint(url)
+        //    debugPrint(err)
+        //    if !(err != nil) {
+        //        print("\(url)")
+        //        self.sendToServer(url: (url?.absoluteString)!)
+        //    }
+        //})
 
-        
+        self.sendToServer(url: "a")
 
         
     }
@@ -137,32 +137,37 @@ extension ViewController {
     func sendToServer(url: String){
         let parameters: Parameters = ["url":  url,"context": "mood"]
 
-        Alamofire.request("http://10.42.0.1:8080/local-generate", method: .post, parameters: parameters, encoding: JSONEncoding.default)
-            .responseJSON { response in
-                print("To server")
-                debugPrint(response)
-                if((response.result.value) != nil) {
-                    let swiftyJsonVar = JSON(response.result.value!)
-                    let dictVar = response.result.value
+  //      Alamofire.request("http://10.42.0.1:8080/local-generate", method: .post, parameters: parameters, encoding: JSONEncoding.default)
+  //          .responseJSON { response in
+  //              print("To server")
+  //              debugPrint(response)
+  //              if((response.result.value) != nil) {
+   //                 let swiftyJsonVar = JSON(response.result.value!)
+   //                 let dictVar = response.result.value
                     // user id && play list
-                    print(swiftyJsonVar.string)
+   //                 print(swiftyJsonVar.string)
                     //self.uid = swiftyJsonVar["user_id"].stringValue
                     //self.pid = swiftyJsonVar["playlist_id"].stringValue
                     //self.mood = swiftyJsonVar["mood"].stringValue
                     
-                    self.uid =  swiftyJsonVar["user_id"].stringValue
-                    self.pid = swiftyJsonVar["playlist_id"].stringValue
-                    self.mood = swiftyJsonVar["mo_od"].string!
+  //                  self.uid =  swiftyJsonVar["user_id"].stringValue
+  //                  self.pid = swiftyJsonVar["playlist_id"].stringValue
+  //                  self.mood = swiftyJsonVar["mo_od"].string!
                     
-                    self.moodLabel.text = self.mood;
-                    self.moodLabel.isHidden = false;
-                    self.spotifyButton2.isHidden = false;
-                    self.spotifyButton1.isHidden = false;
+  //                  self.moodLabel.text = self.mood;
+  //                  self.moodLabel.isHidden = false;
+ //                   self.spotifyButton2.isHidden = false;
+ //                   self.spotifyButton1.isHidden = false;
                     
                 
-                }
-        }
+  //              }
+  //      }
     
+        self.moodLabel.text = "Happy";
+        self.moodLabel.isHidden = false;
+        self.spotifyButton2.isHidden = false;
+       self.spotifyButton1.isHidden = false;
+        
     }
     
 
@@ -184,8 +189,10 @@ extension ViewController {
     func openSpotify(user_id:String, playlist_id:String){
         print(user_id)
         print(playlist_id)
-        var spotifyHooks = "spotify://https://open.spotify.com/user/"+user_id+"/playlist/"+playlist_id
-        var spotifyURLWeb = "https://play.spotify.com/user/"+user_id+"/playlist/"+playlist_id
+        //var spotifyHooks = "spotify://https://open.spotify.com/user/"+user_id+"/playlist/"+playlist_id
+        var spotifyHooks = "spotify://https://open.spotify.com/user/xxx/playlist/xxx"
+        //var spotifyURLWeb = "https://play.spotify.com/user/"+user_id+"/playlist/"+playlist_id
+        var spotifyURLWeb = "https://play.spotify.com/user/xxx/playlist/xxx"
         var spotifyURL = NSURL(string: spotifyHooks)
         if UIApplication.shared.canOpenURL(spotifyURL! as URL)
         {

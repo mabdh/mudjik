@@ -12,46 +12,46 @@ provides-member:
 - ["CSo10URLSession", "serverTrustPolicyManager"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- !private "errSecSuccess"
-- !private "CFArray"
-- !private "SecTrustResultType"
-- "TernaryPrecedence"
-- !private "Set"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
+- !private "=="
 - "ServerTrustPolicy"
-- "URLSession"
+- !private "SecTrustCopyPublicKey"
 - !private "||"
 - !private "SecTrustSetAnchorCertificates"
-- !private "SecTrustSetPolicies"
+- "Bool"
 - !private "Data"
-- !private "SecTrustGetCertificateAtIndex"
-- !private "CFData"
-- "SecCertificate"
-- "AssignmentPrecedence"
-- "CastingPrecedence"
-- !private "Array"
-- !private "SecPolicyCreateSSL"
+- !private "SecTrustSetPolicies"
 - !private "SecPolicyCreateBasicX509"
-- !private "=="
+- !private "CFArray"
 - !private "SecTrustCreateWithCertificates"
+- !private "SecTrustGetCertificateAtIndex"
+- !private "Set"
+- "TernaryPrecedence"
+- !private "CFString"
+- !private "SecTrustResultType"
+- !private "errSecSuccess"
+- !private "SecTrustSetAnchorCertificatesOnly"
 - !private "AnyObject"
-- !private "SecTrustCopyPublicKey"
-- !private "SecTrustEvaluate"
-- "StringLiteralType"
-- !private "objc_getAssociatedObject"
 - !private "objc_setAssociatedObject"
 - !private "SecCertificateCreateWithData"
+- "URLSession"
 - "ServerTrustPolicyManager"
-- "Bool"
-- "Bundle"
-- !private "URL"
-- !private "..<"
-- !private "BooleanLiteralType"
-- !private "SecTrustSetAnchorCertificatesOnly"
-- !private "CFString"
-- !private "SecTrustGetCertificateCount"
+- "String"
+- "StringLiteralType"
+- !private "Array"
+- "SecCertificate"
 - "SecKey"
+- "Bundle"
+- !private "BooleanLiteralType"
+- !private "objc_getAssociatedObject"
 - "SecTrust"
+- !private "CFData"
+- !private "SecTrustEvaluate"
+- !private "SecTrustGetCertificateCount"
+- !private "URL"
+- !private "SecPolicyCreateSSL"
+- !private "..<"
 - !private "SecCertificateCopyData"
 depends-member:
 - !private ["Ps9AnyObject", "AssociatedKeys"]
@@ -152,7 +152,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "objc_setAssociatedObject"]
 - !private ["Ps28CustomDebugStringConvertible", "paths"]
 - ["Ps28CustomDebugStringConvertible", "serverTrustPolicyManager"]
-- ["Ps28CustomDebugStringConvertible", "some"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "Iterator"]
@@ -173,7 +172,6 @@ depends-member:
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps17CustomReflectable", "joined"]
 - !private ["Ps17CustomReflectable", "map"]
-- ["Ps17CustomReflectable", "some"]
 - !private ["Ps17CustomReflectable", "subscript"]
 - !private ["Ps23CustomStringConvertible", "AssociatedKeys"]
 - !private ["Ps23CustomStringConvertible", "Element"]
@@ -237,7 +235,6 @@ depends-member:
 - !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
-- ["Ps23ExpressibleByNilLiteral", "some"]
 - !private ["Ps32ExpressibleByStringInterpolation", "Iterator"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "Iterator"]
@@ -346,7 +343,6 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
 - ["Sq", "deinit"]
-- ["Sq", "some"]
 - !private ["Ps22RandomAccessCollection", "Element"]
 - !private ["Ps22RandomAccessCollection", "Iterator"]
 - !private ["Ps22RandomAccessCollection", "SubSequence"]
@@ -584,7 +580,7 @@ depends-nominal:
 - !private "Vs14CountableRange"
 - "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
-- "Ps17CustomReflectable"
+- !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "V10Foundation4Data"
 - "Vs10Dictionary"
@@ -594,7 +590,6 @@ depends-nominal:
 - !private "Ps30ExpressibleByDictionaryLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
-- "Ps23ExpressibleByNilLiteral"
 - !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
@@ -683,6 +678,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 interface-hash: "cd4782dd5412cd81b1871b8216efa9d8"

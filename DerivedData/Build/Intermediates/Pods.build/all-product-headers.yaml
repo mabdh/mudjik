@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers",
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -34,7 +34,7 @@
         {
           'type': 'file',
           'name': "AFNetworking-Swift.h",
-          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-Swift.h"
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-Swift.h"
         },
         {
           'type': 'file',
@@ -110,23 +110,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules",
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/Pods.build/Debug-iphoneos/AFNetworking.build/module.modulemap"
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/Pods.build/Debug-iphonesimulator/AFNetworking.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/Alamofire.framework/Headers",
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-Swift.h"
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
         },
         {
           'type': 'file',
@@ -137,23 +137,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/Alamofire.framework/Modules",
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/ImgurAnonymousAPIClient.framework/Headers",
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/ImgurAnonymousAPIClient.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "ImgurAnonymousAPIClient-Swift.h",
-          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/ImgurAnonymousAPIClient.framework/Headers/ImgurAnonymousAPIClient-Swift.h"
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/ImgurAnonymousAPIClient.framework/Headers/ImgurAnonymousAPIClient-Swift.h"
         },
         {
           'type': 'file',
@@ -169,18 +169,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/ImgurAnonymousAPIClient.framework/Modules",
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/ImgurAnonymousAPIClient.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/Pods.build/Debug-iphoneos/ImgurAnonymousAPIClient.build/module.modulemap"
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/Pods.build/Debug-iphonesimulator/ImgurAnonymousAPIClient.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/Pods_Mudjik.framework/Headers",
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/Pods_Mudjik.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -190,29 +190,29 @@
         {
           'type': 'file',
           'name': "Pods_Mudjik-Swift.h",
-          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/Pods_Mudjik.framework/Headers/Pods_Mudjik-Swift.h"
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/Pods_Mudjik.framework/Headers/Pods_Mudjik-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/Pods_Mudjik.framework/Modules",
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/Pods_Mudjik.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Mudjik.build/module.modulemap"
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mudjik.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Headers",
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SwiftyJSON-Swift.h",
-          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
         },
         {
           'type': 'file',
@@ -223,12 +223,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Modules",
+      'name': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/Pods.build/Debug-iphoneos/SwiftyJSON.build/module.modulemap"
+          'external-contents': "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/DerivedData/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
         }
       ]
     }

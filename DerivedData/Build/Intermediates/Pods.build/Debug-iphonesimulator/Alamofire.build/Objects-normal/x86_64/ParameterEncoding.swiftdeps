@@ -23,38 +23,38 @@ provides-member:
 - ["V9Alamofire20PropertyListEncoding", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Array"
-- "PropertyListEncoding"
-- !private "<"
-- "TernaryPrecedence"
-- "PropertyListSerialization"
 - "NSNumber"
-- !private "+"
-- !private "~="
-- !private "??"
-- !private "UnicodeScalarType"
-- "Bool"
-- "AssignmentPrecedence"
-- "=="
 - "CastingPrecedence"
-- "String"
-- !private "CFGetTypeID"
-- "JSONSerialization"
-- "URLRequest"
-- "URLEncoding"
-- "StringLiteralType"
-- "JSONEncoding"
-- !private "CharacterSet"
-- !private "CFBooleanGetTypeID"
+- "PropertyListEncoding"
+- "=="
+- !private "~="
+- "AssignmentPrecedence"
+- "PropertyListSerialization"
 - !private "AFError"
-- !private "BooleanLiteralType"
-- !private "+="
-- !private "URLComponents"
-- "HTTPMethod"
-- "ParameterEncoding"
-- !private "!"
-- "Parameters"
+- !private "<"
 - "URLRequestConvertible"
+- "String"
+- !private "!"
+- "HTTPMethod"
+- "URLRequest"
+- !private "UnicodeScalarType"
+- "TernaryPrecedence"
+- !private "CFGetTypeID"
+- "Parameters"
+- "JSONSerialization"
+- "ParameterEncoding"
+- !private "+="
+- "JSONEncoding"
+- !private "??"
+- !private "CharacterSet"
+- "StringLiteralType"
+- !private "CFBooleanGetTypeID"
+- !private "+"
+- !private "BooleanLiteralType"
+- !private "URLComponents"
+- "Array"
+- "Bool"
+- "URLEncoding"
 depends-member:
 - ["O9Alamofire7AFError", "deinit"]
 - !private ["O9Alamofire7AFError", "parameterEncodingFailed"]
@@ -156,7 +156,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "percentEncodedQuery"]
 - !private ["Ps28CustomDebugStringConvertible", "remove"]
 - !private ["Ps28CustomDebugStringConvertible", "setValue"]
-- ["Ps28CustomDebugStringConvertible", "some"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - !private ["Ps28CustomDebugStringConvertible", "url"]
 - !private ["Ps28CustomDebugStringConvertible", "urlQueryAllowed"]
@@ -185,7 +184,6 @@ depends-member:
 - !private ["Ps17CustomReflectable", "map"]
 - !private ["Ps17CustomReflectable", "percentEncodedQuery"]
 - !private ["Ps17CustomReflectable", "setValue"]
-- ["Ps17CustomReflectable", "some"]
 - !private ["Ps17CustomReflectable", "subscript"]
 - !private ["Ps17CustomReflectable", "url"]
 - !private ["Ps17CustomReflectable", "value"]
@@ -312,7 +310,6 @@ depends-member:
 - !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "isBool"]
 - !private ["Ps23ExpressibleByNilLiteral", "map"]
-- ["Ps23ExpressibleByNilLiteral", "some"]
 - !private ["Ps32ExpressibleByStringInterpolation", "addingPercentEncoding"]
 - !private ["Ps32ExpressibleByStringInterpolation", "data"]
 - ["Ps32ExpressibleByStringInterpolation", "init"]
@@ -509,7 +506,6 @@ depends-member:
 - !private ["Ps9OptionSet", "prettyPrinted"]
 - ["Sq", "deinit"]
 - !private ["Sq", "map"]
-- ["Sq", "some"]
 - !private ["P9Alamofire17ParameterEncoding", "AFError"]
 - !private ["P9Alamofire17ParameterEncoding", "CharacterSet"]
 - !private ["P9Alamofire17ParameterEncoding", "HTTPMethod"]
@@ -827,7 +823,7 @@ depends-nominal:
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps25ExpressibleByFloatLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
-- "Ps23ExpressibleByNilLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
 - "Ps32ExpressibleByStringInterpolation"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
@@ -936,6 +932,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 interface-hash: "077bf2a3336dfadb2fedd86f72eb5fb2"

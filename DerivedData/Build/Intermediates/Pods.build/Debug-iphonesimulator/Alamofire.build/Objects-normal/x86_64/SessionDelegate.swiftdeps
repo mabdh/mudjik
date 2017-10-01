@@ -6,29 +6,9 @@ provides-nominal:
 provides-member:
 - ["C9Alamofire15SessionDelegate", ""]
 provides-dynamic-lookup:
-- "dataTaskDidReceiveResponse"
-- "taskDidReceiveChallengeWithCompletion"
-- "taskNeedNewBodyStream"
-- "dataTaskWillCacheResponse"
-- "dataTaskWillCacheResponseWithCompletion"
-- "streamTaskDidBecomeInputAndOutputStreams"
-- "streamTaskReadClosed"
-- "downloadTaskDidResumeAtOffset"
-- "taskNeedNewBodyStreamWithCompletion"
-- "responds"
-- "streamTaskWriteClosed"
-- "sessionDidFinishEventsForBackgroundURLSession"
-- "sessionDidReceiveChallengeWithCompletion"
-- "taskDidSendBodyData"
-- "downloadTaskDidWriteData"
-- "dataTaskDidReceiveData"
-- "streamTaskBetterRouteDiscovered"
-- "urlSessionDidFinishEvents"
-- "sessionDidBecomeInvalidWithError"
-- "taskWillPerformHTTPRedirection"
-- "taskDidComplete"
-- "dataTaskDidBecomeDownloadTask"
 - "downloadTaskDidFinishDownloadingToURL"
+- "taskNeedNewBodyStreamWithCompletion"
+- "dataTaskDidBecomeDownloadTask"
 - "dataTaskDidReceiveResponseWithCompletion"
 - "urlSession"
 - "urlSession"
@@ -49,57 +29,77 @@ provides-dynamic-lookup:
 - "urlSession"
 - "urlSession"
 - "urlSession"
+- "taskDidSendBodyData"
+- "sessionDidFinishEventsForBackgroundURLSession"
+- "downloadTaskDidWriteData"
+- "taskNeedNewBodyStream"
+- "urlSessionDidFinishEvents"
+- "dataTaskDidReceiveData"
+- "taskDidReceiveChallengeWithCompletion"
+- "sessionDidBecomeInvalidWithError"
+- "streamTaskDidBecomeInputAndOutputStreams"
+- "streamTaskReadClosed"
+- "downloadTaskDidResumeAtOffset"
+- "responds"
 - "taskWillPerformHTTPRedirectionWithCompletion"
+- "dataTaskDidReceiveResponse"
+- "sessionDidReceiveChallengeWithCompletion"
+- "streamTaskBetterRouteDiscovered"
+- "streamTaskWriteClosed"
+- "dataTaskWillCacheResponseWithCompletion"
+- "taskWillPerformHTTPRedirection"
+- "dataTaskWillCacheResponse"
+- "taskDidComplete"
 depends-top-level:
-- "SessionDelegate"
-- "URLSessionDownloadTask"
-- "URLSessionTaskDelegate"
-- "Dictionary"
-- "InputStream"
-- !private "DataTaskDelegate"
-- "URLSessionDataTask"
-- "URLResponse"
-- !private "NotificationCenter"
-- "Request"
-- "NSObject"
-- "URLSessionTaskMetrics"
-- "URLSessionDelegate"
-- "URLSession"
-- "URLSessionDownloadDelegate"
-- !private "||"
-- !private "DownloadTaskDelegate"
-- "URLSessionTask"
-- "BooleanLiteralType"
-- "URLCredential"
-- "URLSessionStreamTask"
-- "RequestRetrier"
-- "OutputStream"
-- "Int"
-- "SessionManager"
-- !private "UploadTaskDelegate"
-- "URLSessionDataDelegate"
-- "Int64"
-- !private "~="
-- !private "Notification"
-- "Void"
-- "CachedURLResponse"
-- "AssignmentPrecedence"
-- !private "=="
-- "CastingPrecedence"
-- "URLRequest"
-- "URLSessionStreamDelegate"
-- "Selector"
-- !private "??"
-- "URL"
-- "HTTPURLResponse"
-- "Bool"
-- "NSLock"
 - "Error"
-- "URLAuthenticationChallenge"
+- "NSLock"
 - "Data"
-- !private "DispatchQueue"
-- !private "NSURLAuthenticationMethodServerTrust"
+- "URLSessionDownloadDelegate"
+- "URLSessionStreamTask"
+- "URLSessionTaskDelegate"
+- "URLAuthenticationChallenge"
+- "URLSessionStreamDelegate"
+- "Int"
+- "URLSessionDataTask"
+- "Selector"
+- "URLSessionDownloadTask"
+- !private "??"
+- !private "NotificationCenter"
+- "Void"
+- "OutputStream"
+- "Request"
+- "Bool"
+- "URLSession"
+- "URLRequest"
+- "URLResponse"
+- !private "Notification"
 - !private "!="
+- "Int64"
+- !private "DispatchQueue"
+- "BooleanLiteralType"
+- "Dictionary"
+- !private "NSURLAuthenticationMethodServerTrust"
+- "URLSessionTask"
+- "URLCredential"
+- !private "UploadTaskDelegate"
+- !private "||"
+- "HTTPURLResponse"
+- "URLSessionDataDelegate"
+- "URLSessionTaskMetrics"
+- "SessionManager"
+- "InputStream"
+- !private "~="
+- !private "=="
+- "CachedURLResponse"
+- "NSObject"
+- "RequestRetrier"
+- "URLSessionDelegate"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
+- !private "DataTaskDelegate"
+- !private "DownloadTaskDelegate"
+- "SessionDelegate"
+- "URL"
 depends-member:
 - ["Ps9AnyObject", "AuthChallengeDisposition"]
 - !private ["Ps9AnyObject", "DispatchQueue"]
@@ -316,7 +316,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "sessionDidReceiveChallenge"]
 - ["Ps28CustomDebugStringConvertible", "sessionDidReceiveChallengeWithCompletion"]
 - ["Ps28CustomDebugStringConvertible", "sessionManager"]
-- ["Ps28CustomDebugStringConvertible", "some"]
 - ["Ps28CustomDebugStringConvertible", "streamTaskBetterRouteDiscovered"]
 - ["Ps28CustomDebugStringConvertible", "streamTaskDidBecomeInputAndOutputStreams"]
 - ["Ps28CustomDebugStringConvertible", "streamTaskReadClosed"]
@@ -346,7 +345,6 @@ depends-member:
 - !private ["Ps17CustomReflectable", "_Element"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - !private ["Ps17CustomReflectable", "forEach"]
-- ["Ps17CustomReflectable", "some"]
 - !private ["Ps17CustomReflectable", "subscript"]
 - ["Ps23CustomStringConvertible", "AuthChallengeDisposition"]
 - !private ["Ps23CustomStringConvertible", "DispatchQueue"]
@@ -519,7 +517,6 @@ depends-member:
 - ["Ps30ExpressibleByDictionaryLiteral", "Key"]
 - ["Ps30ExpressibleByDictionaryLiteral", "Value"]
 - !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
-- ["Ps23ExpressibleByNilLiteral", "some"]
 - ["CSo15HTTPURLResponse", "deinit"]
 - ["Ps8Hashable", "AuthChallengeDisposition"]
 - !private ["Ps8Hashable", "DispatchQueue"]
@@ -808,7 +805,6 @@ depends-member:
 - !private ["CSo9OS_object", "after"]
 - !private ["CSo9OS_object", "utility"]
 - ["Sq", "deinit"]
-- ["Sq", "some"]
 - ["CSo12OutputStream", "deinit"]
 - !private ["Ps22RandomAccessCollection", "Iterator"]
 - !private ["Ps22RandomAccessCollection", "_Element"]
@@ -1317,7 +1313,6 @@ depends-nominal:
 - !private "Ps25ExpressibleByArrayLiteral"
 - !private "Ps27ExpressibleByBooleanLiteral"
 - "Ps30ExpressibleByDictionaryLiteral"
-- "Ps23ExpressibleByNilLiteral"
 - "CSo15HTTPURLResponse"
 - "Ps8Hashable"
 - "Ps9Indexable"
@@ -1400,6 +1395,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 interface-hash: "bb7ea6a3037de674f09a9c2287a5c5a4"

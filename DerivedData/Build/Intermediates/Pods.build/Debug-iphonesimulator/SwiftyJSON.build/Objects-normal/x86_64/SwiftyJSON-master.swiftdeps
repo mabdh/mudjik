@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "9f317b93861a59465e663b9da0202c25"
+build_time: [532820984, 528616000]
+inputs:
+  "/Users/muhammadabduh/Documents/HackathonMusic/Mudjik/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [529897944, 0]

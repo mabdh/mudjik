@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "94021279d2ead390e0bc9e36789dd6df"
+build_time: [1506870700, 529648000]
+inputs:
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/AFError.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/Alamofire.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/MultipartFormData.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/Notifications.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/ParameterEncoding.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/Request.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/Response.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/ResponseSerialization.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/Result.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/SessionDelegate.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/SessionManager.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/TaskDelegate.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/Timeline.swift": [1476580807, 0]
+  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/Alamofire/Source/Validation.swift": [1476580807, 0]

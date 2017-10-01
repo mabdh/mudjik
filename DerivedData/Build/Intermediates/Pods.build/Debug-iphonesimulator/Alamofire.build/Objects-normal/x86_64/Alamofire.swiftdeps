@@ -36,36 +36,36 @@ provides-member:
 - ["V10Foundation10URLRequest", "adapt"]
 provides-dynamic-lookup:
 depends-top-level:
-- "URLComponents"
-- "request"
-- "MultipartFormData"
-- "DownloadRequest"
-- "Void"
-- "upload"
-- "DataRequest"
-- "AssignmentPrecedence"
-- "UploadRequest"
-- "HTTPMethod"
-- !private "AFError"
-- "HTTPHeaders"
 - "Data"
 - "URLRequest"
-- "URLConvertible"
-- "URL"
-- !private "URLEncoding"
-- "RequestAdapter"
-- "Int"
 - "InputStream"
-- "ParameterEncoding"
-- "SessionManager"
-- "download"
-- "String"
-- "URLRequestConvertible"
-- "Parameters"
+- "DataRequest"
+- "URLConvertible"
+- "RequestAdapter"
+- !private "URLEncoding"
+- "AssignmentPrecedence"
 - "UInt64"
+- "DownloadRequest"
+- "UploadRequest"
+- "upload"
+- "Int"
+- "URLComponents"
+- "HTTPMethod"
+- "ParameterEncoding"
+- "URLRequestConvertible"
+- "HTTPHeaders"
+- "Parameters"
 - "stream"
+- "String"
 - "StreamRequest"
 - "NetService"
+- "request"
+- "SessionManager"
+- "download"
+- !private "AFError"
+- "Void"
+- "URL"
+- "MultipartFormData"
 depends-member:
 - ["O9Alamofire7AFError", "deinit"]
 - !private ["O9Alamofire7AFError", "invalidURL"]
@@ -94,7 +94,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "httpMethod"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "setValue"]
-- ["Ps28CustomDebugStringConvertible", "some"]
 - !private ["Ps28CustomDebugStringConvertible", "url"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "AFError"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "URL"]
@@ -109,7 +108,6 @@ depends-member:
 - !private ["Ps17CustomReflectable", "httpMethod"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps17CustomReflectable", "setValue"]
-- ["Ps17CustomReflectable", "some"]
 - !private ["Ps17CustomReflectable", "url"]
 - !private ["Ps23CustomStringConvertible", "AFError"]
 - ["Ps23CustomStringConvertible", "DownloadFileDestination"]
@@ -144,7 +142,6 @@ depends-member:
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "AFError"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "URL"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "asURL"]
-- ["Ps23ExpressibleByNilLiteral", "some"]
 - !private ["Ps32ExpressibleByStringInterpolation", "AFError"]
 - !private ["Ps32ExpressibleByStringInterpolation", "URL"]
 - ["Ps32ExpressibleByStringInterpolation", "asURL"]
@@ -183,7 +180,6 @@ depends-member:
 - ["Ps10MirrorPath", "asURL"]
 - ["CSo10NetService", "deinit"]
 - ["Sq", "deinit"]
-- ["Sq", "some"]
 - !private ["P9Alamofire17ParameterEncoding", "default"]
 - ["P9Alamofire17ParameterEncoding", "deinit"]
 - !private ["Ps16RawRepresentable", "get"]
@@ -314,7 +310,6 @@ depends-nominal:
 - !private "Ps5Error"
 - !private "Ps30ExpressibleByDictionaryLiteral"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
-- "Ps23ExpressibleByNilLiteral"
 - "Ps32ExpressibleByStringInterpolation"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
@@ -368,6 +363,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 interface-hash: "59b2ba54b97e25a89266b1659dc2522f"
