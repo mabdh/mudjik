@@ -1,7 +1,0 @@
-version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
-options: "1322cc20f457733bc70d6e493d5076d2"
-build_time: [1506870753, 379106000]
-inputs:
-  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Mudjik/ViewController.swift": !dirty [1476619764, 0]
-  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Mudjik/mdViewController.swift": !dirty [1476607226, 0]
-  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Mudjik/AppDelegate.swift": !dirty [1476577469, 0]

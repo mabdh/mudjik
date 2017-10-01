@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
-options: "0359b92166649281d834b385d4407638"
-build_time: [1506870751, 875497000]
-inputs:
-  "/Users/muhammadabduh/Research/GithubRepo/HackathonMusic/Mudjik/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1476582744, 0]
